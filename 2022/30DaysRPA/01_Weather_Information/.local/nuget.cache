@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hOrgH7dWBaUTsX/Pw7xuTXIKUR15btcvuzNYr0xc9zW/0i4ex2qBSzgp5sWrN/B0lzg3VIy39r8UBiPMXF7NfQ==",
+  "dgSpecHash": "A8/RRlWbII9zGyXgVmmsLR6NPLO5TXa7y0BfXZdKwdaaTfpBJhz5STZsPQCr1b5B8w0lj7ENFhwwAPK2xRflcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nason.GONGCHIE\\Desktop\\fromGithub\\30DayChallenges\\2022\\30DaysRPA\\01_Weather_Information\\01_Weather_Information\\.local\\",
+  "projectFilePath": "C:\\Users\\Nason.GONGCHIE\\Desktop\\fromGithub\\30DayChallenges\\2022\\30DaysRPA\\01_Weather_Information\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Nason.GONGCHIE\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Nason.GONGCHIE\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
