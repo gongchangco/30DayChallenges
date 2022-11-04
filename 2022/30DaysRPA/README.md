@@ -5,6 +5,13 @@
 
 ### Challenge List
 ---
-01.  
-02.
-03.
+01. Weather Information 
+02. Ingredients
+03. Higher Lower
+04. Send Email
+05. Mock Export
+06.
+07.
+08.
+09.
+10.
