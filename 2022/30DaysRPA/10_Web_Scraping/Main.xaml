@@ -1,0 +1,202 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1121,2501" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="66">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="56">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="554,2436" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Use Browser Edge: Private Search Engine - Brave Search" sap:VirtualizedContainerService.HintSize="512,2346" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="2c78b916-192c-421e-bb13-52643c4e8513" Timeout="5" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,2120" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="strQuestionsBeforeSearch" />
+              <Variable x:TypeArguments="x:String" Name="strQuestionsAfterSearch" />
+              <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtQuestions" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get Text 'Questions'" sap:VirtualizedContainerService.HintSize="436,166" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="2c78b916-192c-421e-bb13-52643c4e8513" TextString="[strQuestionsBeforeSearch]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions?tab=newest&amp;pagesize=50" DesignTimeRectangle="517, 271, 268, 22" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'23,196,439 questions'" FullSelectorArgument="&lt;webctrl isleaf='1' parentid='mainbar' tag='DIV' aaname='*questions*' /&gt;" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='mainbar' tag='DIV' type='' class='fs-body3 flex--item fl1 mr12 sm:mr0 sm:mb12' /&gt;" Guid="c8f3b6c2-32eb-4808-b131-78186fa47cba" ImageBase64="" InformativeScreenshot="b55356861ca5c11de020d206901d0951.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NClick ClickType="Single" DisplayName="Click '50'" sap:VirtualizedContainerService.HintSize="436,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2c78b916-192c-421e-bb13-52643c4e8513" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions?tab=newest&amp;pagesize=50" DesignTimeRectangle="1136, 655, 32, 27" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'50'" FullSelectorArgument="&lt;webctrl aaname='50' parentid='mainbar' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='50' parentid='mainbar' tag='A' type='' class='s-pagination--item is-selected' check:innerText='50' /&gt;" Guid="31ff5917-a1f0-4990-9955-b8f3028bef2f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAfCAYAAACPvW/2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEaSURBVFhH7ZdNCoMwEEZ7me57xNKN9CoeoOAJXHoBwQO4ElpE/JlmbEYn0YRWSxpKHnxQm8R5TJKFB/AMv4Wa2xke1xPcL0cnwVpYkzMJ4cDaIhfhUpOQy87owdrEJLQ20WWIIGQKEYRMIf5AKElhkGteVNAl83hbyr8FQxGpay0htgnVKTQrY01RAZSxfI6hF+/ts+W8tRCfC2U5K8oTQVer3VIF7SG2CTHmDmBHcmj1uYZu6iH2HerxPMmujL81Icv26iH2CYngtrwOrw8dEsFbNQv94Ay1JesC3zLxvLxlqqAtxAYhuWBEL4g3TQ4J3r3yGGL3ln0rRBAyhQhCphD+Cnn31eHddxmCAy47hbW4DKII+YBnQgBPeLIFrOF6Iw8AAAAASUVORK5CYII=" InformativeScreenshot="9b102604858582c63a4f58bbcdafce0d.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1172, 655, 69, 27" ElementType="Text" FriendlyName="'per page'" FullSelectorArgument="&lt;webctrl parentid='mainbar' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='mainbar' tag='SPAN' type='' class='s-pagination--item s-pagination--item__clear' aaname='per page' check:innerText='per page' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAfCAYAAACrpOA2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGmSURBVGhD7ZVxqsIwDIffXR4InkvBmwh6lLGjiB5D0EP0NWmapXVzv9X95csHBddsafotqz/BmcUlAbgkAJcE4JIAXBKASwJwSQAuCcAlAbgkAJcE4JIAFku6nrdh199Ct9+G3w2NQ+juEmRu4cjzVezeh93mFLr+wLHjReYzEr9eTvJsHOebBAmbl2p4yjxhY5LDPsu5TVymUZokFZvnTeWFnyxPBeSN6+96c4a8Ed1cyqX3x3XKvLmGas0sTPPQdVXvvg8PuURo7CS7UVPkSwEUkwKtsDHG4pMbMnnH7qE5kfSgzn3pyGXdtIKkNKeStK2HwbEWSTSnAtLLGPIaSYWESC3J1FI8C7JSJ70pONPaSZzPdCvzvpNs99DvyU8cpPFMGjbDBWmR6TwYNmOAJNkXYHNV5wrfm6/rNdO1vqzi3jYaO6lPhfAY+UQ0FkcWCEka/v1oFB1AHaM54yGeO4ko1oxr1B1tn6Ux1e0TrHImrcKcxAWs8YlZvk8S5/ns86r5AklyBpkxeiZ+wGJJ/xGXBOCSAFwSgEsCcEkALgnAJc0Swh9CVu7zOxf6iAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Filter'" sap:VirtualizedContainerService.HintSize="436,166" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2c78b916-192c-421e-bb13-52643c4e8513" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions?tab=newest&amp;pagesize=50" DesignTimeRectangle="1175, 264, 69, 36" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Filter'" FullSelectorArgument="&lt;webctrl aaname='                          Filter                     ' aria-role='button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                          Filter                     ' aria-role='button' tag='BUTTON' type='' class='s-btn s-btn__filled s-btn__sm s-btn__icon ws-nowrap' check:innerText='Filter' /&gt;" Guid="87e648d2-ebee-43de-ac39-0a605bc35a08" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAoCAYAAACy29cjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG1SURBVGhD7dpBSwJBFMDxvpYfyXO3ziL1BbKDgTfxZnQp14uH8CS06kWCYt0uhgnVJhTBi7czu84M4/qqCRbnPfiDtDML/txdOuwB8OwcRiKMhtQL53DUHnrdycUIrsNIiojJka5uI2j0JvCy/oT1x5e3Pa4SaAQTDSpHQsGHpzeIn98hWibeht//fvGaemSTI+Gl5jtQFjqgRzYakm2DrzESIUYixEiEGIkQIxFiJEJOkCqH57/Kdq4yVlKkMdS0tR1ozRIIux2oNMfpGvxc7cbGvv/JCZL7EOkS+tZjIg1pNoBqfQChscZVjETIKZJ6KxVl26tnR1Jh8s8IpJy7diPW9pubv5mYrfRY8Y+gVmIkdY/4QlYkXG9cSQiUYUXLGFp18UzLQDfHaDlFctcPriQ8piEhigosSmEMTGp7iiSvHLkvr0xI5q+YZVtr7y9I8nkk/1XQ8hpJucXE88a85eS59ut2K1eMRIiRCDESIUYixEiEGIkQIxFiJEKMRIiRCDESISvSWTCF4d3CusHHrEj4Etdxd+Q91DRewWlvy0tcOMF4nl5RqOhrha8D8mwfRto5AN+DB9nwrYHcgwAAAABJRU5ErkJggg==" InformativeScreenshot="d49ec496b8a719f212ca9cd213a198a0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Filter Search Field'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="436,227" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="2c78b916-192c-421e-bb13-52643c4e8513" Text="UiPath" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions?tab=newest&amp;pagesize=50" DesignTimeRectangle="931, 410, 205, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl aria-role='combobox' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' tag='INPUT' type='text' class='s-input js-tageditor-replacing' aaname='' /&gt;" Guid="85169efd-c8fb-4d99-b764-f5a5d97e7409" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANEAAAAhCAYAAABHqE72AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOxSURBVHhe7ZhBTxsxEIX5/z8pF1AVKlKaUiElUqWKKFekcITezI5nvJ6xHe8uDiWw75NWyq499njmvWTh4sevewcAmMbzyz9323ln++evu3h+eZHHAIApkJG+fb91F3IPAHgDi8slTARACzARAI3ARAA0AhMB0AhMBEAjMBEAjcBEADQCEwHQyNmY6GG9dIv1Tu7OiZ1bdUVa7eX2K/C0cVeXd+5BbkEb+CU6KY/u/voMDbe/c4vrjTvILUx0WmCikwITzZFJJjpsb3yAvyqvXv7VTOat9vQ6NNwwirnaPsodv0KFNcJzO4dQa3th6H39BI/Ox8STuPoYXsefcb3xZuBntMeNu3+iAPm8V3v14rQ5G9Fqkjx1Pny+Da9TiOfxneRGV8jrWG1u3M/fqmfd5esSTKTPb/qZnEWPFWLtvvODajDORMm3Wd40hkUYi84CFqFXMOt1e/Um8E0TsSQ5+HvZ67C96wXF5tCmKBhezSEOnXj7+UqcvXF6E3XnSeoQ1x/6JeL4OG7nD9WKx1Vu+gyV2mRjwchhXNdYcsrNLffV2Hky2kSZOHSTerTgAvRsookM1FQt4rgWxZQFq+alAhKOxeam02cqnM+LKORUN1HR0KqOx2vA5ON6v0ptiibSPVHrlOpF88OzWuxMmWSi8PPdX5k4bSOZ0rMcKxBuTNwrCrcXh26sh/bRMXFP/nXpnvXzaf3U7MxkE5nz1QVFa2cmUeeYbiJrlvg5qfmgiVSsMnVErVeLnSmkrZEmKovOUhBZoeglokBSISaClyZbQab7JiISokGOi32yiYyZh02UCVSJNtagTD6e1IZyobVSI0w1kZ5L6DPWYmfKaBN5AaTFFXRz6bNuoL8PRS80IBDXSITqY3KDrNbpHLUuCaG0jxKIP4+aY/4mMkJPTaTPx6aJwq6biPPU43a+rmMJU8uOvCe0XlIbYoqJ5Iw6D5NXNXaejDYRwU2MV7n5LIw4h0Xvi15oQMCs4U0ga5Aokl9Bn0diaDaFxKy7GNnHPE/2NmPaXFUTdZ+3Kj8ztyPknuTXI0YK8Vp8to45PC7/vfNXXsvcWETsid9v0AjyZSGXyQkmyqAajTbRm6CiHxOU4nM0Qhvq/zNkMoJMNDQHnJZ3NhF/Aw439WPFOZ5zNxHll/86gffl5CaiRofXAH+lrzuG+NrwOb49z9dEoe5zfq36KKju7/s6B8AXByYCoBGYCIBGYCIAGoGJAGgEJgKgEZgIgEZgIgAagYkAaGRxuXSvNSUZcPkJeaUAAAAASUVORK5CYII=" InformativeScreenshot="8c628b98d43e4a19d6a02421d4771771.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="921, 380, 129, 20" ElementType="Text" FriendlyName="'checked'" FullSelectorArgument="&lt;webctrl aaname='The following tags:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='The following tags:' tag='LABEL' type='' class='flex--item s-label fw-normal ws-nowrap' check:innerText='The following tags:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIUAAAAYCAYAAADUIj6hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL5SURBVGhD7ZbZbeMwEIa3gCTdGQHSjWG4j0CFGC4jgJEisimAIWd4zEXK0kpGsJiHD4lIzf2L9J+vv9/BcSguCkfhonAULgpH4aJwFFwUH1M4PL+EJ5NzuMR3btNreHqbwo3abcDlmOPc6Zvn8Rne317CYfpU720B5ob1W/v/G/2TAgSiG7GHKNb4fKQoHsM1nJ5fw/uHtfdYfo8ojldzr4eLYj/Wi+J6bleLEgkOqb/fqNdGpg02NYnu8VzmRTGwT7mznHK+VJjkHR4L/Z6uvMbTtfgi9jS2itl7N78Pe6KPxjxY/2L+6Zn2AXKv9kV0Rr2EdaLICeAaNqklogcEiQ9OAvBJ9/NvG9pojNvy4YMSMWft5VeZBUSGRnPisYrYmr3MDYc89q+ROUViHadBH+GZ+sziqn2AZ5rXVP2PZrJSFHydNc36Ijq+CnQACTthHHwZNB8UF8W8vRBRyvl4JkMZxcIBU9HzgQrfBasvDEMUEuoDeqrfT7WzuoYxbTb5TUHX4H/4kiT9gsGmDrHT1AgtmOdBbRbY55hpPQmg/MUBtdp5LBRFEQxC16z9yFpRJLvaw0jxAet6PkwUOZdkp/IZsI8ohsVr6IDkV0pZIoo5+1ZfahzWWfMQA+SxrKHTtcFwh33RdilfdS0VHx1/XBQZqFX4GrC5KHoKHlGHkZ+hGeQZ4cPmefDT4R77OoR4zx7Ku6nm6PMSfdPGLhMFz8X2YSFFoUXChADzkeKzYxdMwRhsL4qcGB9KLFANqQH2dD8rmzZexrVi1oLvsE/gl0gblXMXzea2c6LI79Pe5XxkfI70KweM+7Jm2jeM22xu05nUwf3ZHw6ygygSuYCKVDQH7GWCpZGFYUzZwHl7AE41nhs0axhrXhTVhsbuHPeUZpP7zmqIa8pHETGS6menAdTH90usdaJwNsUU/uagSLhgl+OieAT5i//XYc2BJ40+3ZfiotgBdnUA4+tzHfzqAGaup3txUTgKF4WjcFE4CheFo3BROILv8ANGt4JwUYwrsgAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Apply filter'" sap:VirtualizedContainerService.HintSize="436,166" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2c78b916-192c-421e-bb13-52643c4e8513" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions?tab=newest&amp;pagesize=50" DesignTimeRectangle="530, 511, 79, 35" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Apply filter'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='s-btn s-btn__sm s-btn__primary flex--item' aaname='Apply filter' check:innerText='Apply filter' /&gt;" Guid="fa14b17a-59cf-4450-8fca-1f8f7404b972" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFMAAAAnCAYAAABzAXTXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJNSURBVGhD7Zo9TgMxEEapkWiQoKOmR6Km5ABcgBpxgFwEhBDF0iAKJCoaBCIFdyAHoEZAGkSRwZ+xjT3rzWa9gxIpY+kpi/925mUcGq98fI5JkUFlCpLIPHr4po3zCa2ekNLC1sXE+or9BZkY2L0mOrwnOn5S2ji4I9q5Ms+Pf0KDTFTk3g3R+ln+m1BS4Gn/9rdCazL9BL5Iacb7yspUylCZgqhMQVSmICpTEJUpiMoURGUKIiJz+EX0/pofK2FERFWmv5Fn836zBq1yz1g/MDFJxtVGf5kI/q1AwBS67lXh/S/1/kQm4jRf+oDNkaS3TASMRJoSKmFpZeKI28RNMmSSCmMu+Mok41ucsBWGNa7Fx9HLxOfQ7OP7IY0fW/SFhvdH0oJM9LkpaD6OeC2XPnRjXb7UfjKZwKSiXAJJkNE45vK1Xpzfh//mJftHJJXpZCQyWX9tjQFFYd/v4sxVehu9ZPKAmpLKjXMxceJhLN7DrEsqP6JEJuTxZvfIxD0rvWQi6VrzCUvINGANKsZ/+vkxpTKz+7F5XSiX2VApEBEflxCw+9tLwrwgIF7nnoNoMwdCRlMSLJGJNdlKZ/O6UCwzSYD12wRcUJDgW1wJViYSco2LjauWi+fMJNPgj7afy4+6fec8ZLbSEhQXNo0uc+fJwstEdTX941k0Flom5lDhkZsH/ydzCVGZgqhMQVSmICpTEJUpiMoURGUKUpOJ21y5icp0ti8zt+BwP3PtNL9AyQNf8YXXIBPg4uam3hyeCXhqvDms9EdlijGmH5/bh8nEgoRsAAAAAElFTkSuQmCC" InformativeScreenshot="f111c308c6915ff382ccc1e8b000c326.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="436,568" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,393" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="358,97" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  <uix:NGetText DisplayName="Get Text '707 questions'" sap:VirtualizedContainerService.HintSize="358,166" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="2c78b916-192c-421e-bb13-52643c4e8513" TextString="[strQuestionsAfterSearch]" Version="V3">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions/tagged/uipath?sort=Newest&amp;edited=true" DesignTimeRectangle="517, 390, 300, 22" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'707 questions'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' isleaf='1' parentid='mainbar' tag='DIV' aaname='*questions*' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' parentid='mainbar' tag='DIV' class='fs-body3 flex--item fl1 mr12 sm:mr0 sm:mb12' /&gt;" Guid="7c30a83d-0f5b-48ca-bf4e-9574254c12e2" ImageBase64="" InformativeScreenshot="8e9813634c4dc39fec658ac432eeb46d.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newest &amp;apos;uipath&amp;apos; Questions - Stack Overflow' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+              <ui:InterruptibleDoWhile.Condition>
+                <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="strQuestionsBeforeSearch = strQuestionsAfterSearch" />
+              </ui:InterruptibleDoWhile.Condition>
+            </ui:InterruptibleDoWhile>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[dtQuestions]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Question' ReferenceName='Column0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Votes' ReferenceName='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Answers' ReferenceName='Column2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Views' ReferenceName='Column3'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="436,166" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="2c78b916-192c-421e-bb13-52643c4e8513" Timeout="5" Version="V3">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions/tagged/uipath?sort=Newest&amp;edited=true" DesignTimeRectangle="731, 655, 45, 27" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl aaname=' Next' parentid='mainbar' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Next' parentid='mainbar' tag='A' type='' class='s-pagination--item js-pagination-item' check:innerText='Next' /&gt;" Guid="e028d427-9f45-435b-b73a-96ac78099436" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAfCAYAAABOOiVaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFeSURBVFhH7ZhNbsIwEEa5Fxs2XCYbNlyiqyxyDhYRx2DBAqlq1arLmh9xApAGf8PYjF21FQLJjuUnWeA4ib7nmWSRERVAeRJmd6C3jy96ff/MdiAfcmq8BBa+t3s6nc9yJE+QDzm1iJeAYe4CDuREXoeXQKmGhM5bJVJSJXKhShwXMxpPZrQ0csBhepo3PR1leje4ftLRRqb/8bDEvLEiceDBSSwMbdop/3piCQ41tVXDuIXDdeN2LTNDy8bep32R864juO8vPEWCaE2dbqtAIlpbdapyak0fT1EJJg4h//m58bsNEFwFxHVtb6sQbUISCYtvq1hCtcd16JeBtJFum5QSvj1WoUR4TgRXovvZjukkLAiF3Q76W++85vZMcMVc2yWXsPBbx0kAJ+YGh43bKJzzPey5f1ZReEgiF6pELlSJXChXooivHUV8dwJYgCFKletAPi0AAomhUoAE0QWIs86hGxQbBQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newest &amp;apos;uipath&amp;apos; Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="493, 419, 751, 7276" DesignTimeScaleFactor="1" FriendlyName="'0 votes 1 answer'" FullSelectorArgument="&lt;webctrl id='questions' tag='DIV' /&gt;" Guid="ba8f168c-7418-40d5-8e38-50118fce6a7c" InformativeScreenshot="4a9e7a655b4a047a6fd99607c627cf96.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newest &amp;apos;uipath&amp;apos; Questions - Stack Overflow' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dtQuestions]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="436,125" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="./samples/Data.xlsx" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="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" InformativeScreenshot="f59e8538829548e7ce665a22e7600679.jpg" Selector="&lt;html app='msedge.exe' url='https://stackoverflow.com/questions' /&gt;" Url="https://stackoverflow.com/questions" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
