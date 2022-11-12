@@ -1,0 +1,150 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1121,1780" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="62">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="45">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="476,1715" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="434,160" sap2010:WorkflowViewState.IdRef="Comment_1" Text="&quot;IMPORTANT NOTE: Please do not use your actual login and password credentials. This is the only site I can think of for entering a random login credentials WITHOUT actually entering login credentials to login successfully.&quot;" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Edge: StealMyLogin.com Demo" sap:VirtualizedContainerService.HintSize="434,1425" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="False" ScopeGuid="f2e98eff-91e3-4d58-a8a0-980fe8668874" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,1199" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="358,97" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Login'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,227" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="f2e98eff-91e3-4d58-a8a0-980fe8668874" Text="NotMyLogin" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.stealmylogin.com/demo.html" DesignTimeRectangle="16, 124, 177, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="482694cd-eeec-422f-bdf7-7c0c7c13d0e8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALUAAAAZCAYAAAB3jW88AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABxSURBVHhe7dLBCYAwAARBq077ET+SiA1kmYF73XevCTGiJmeLeoxhduRWb9TfA06y9itqEkRNjqjJETU5oiZH1OSImhxRkyNqckRNjqjJETU5oiZH1OSImhxRkyNqckRNzm/Uj+cwO3GrLWooEDUxc96Z+wJd0ibQxQAAAABJRU5ErkJggg==" InformativeScreenshot="2fe9f11c8271e49876df87940c2ae09f.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='StealMyLogin.com Demo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="16, 88, 40, 17" ElementType="Text" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' aaname='Login' check:innerText='Login' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAVCAYAAAA98QxkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVEhL7ZVNDoQgDIU5I4kXMlyF2c8l9CAuPEaHnxZrHRljaKIZX9IFtMDHs6qBm+kB1tYDrK0CPL8sGGNEOBgw31pDH/e34CecOCjh8ACOYHst1KzmwPY149y19E/ArH1iiBb6/k7kutwOOdwYikfH8h58R/lty5wExrrOQ6qaPNh0GEITAOYJftlzOScBx5lyiQxJY8lxCri4V1yldevDKF/q6YI1YFwjx6RTwNvNBMCOw7v1cUYFOIDEA345nMT7crOfArAszH1KQFi318MpX/vpNAAurlWDQRAkBd9YuLtEXl9gUgQT3ut614sxXipKONxKM/s0raP2bhyRCnB6WrKlgqKzlwTmPcqDP9qzUgLW082AAT5GSIh/BHYBiAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Login'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,227" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="f2e98eff-91e3-4d58-a8a0-980fe8668874" Text="NotMyPasswordLOL" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.stealmylogin.com/demo.html" DesignTimeRectangle="16, 163, 177, 21" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='' aaname='' /&gt;" Guid="662632e2-cb3b-4d2a-b7bb-456672389f65" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALUAAAAZCAYAAAB3jW88AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACtSURBVHhe7dKxDYMwFEVRNqTKKgyQHRghY9BmFZeM4MgJQiQiPX46R3qN3fziDvWt1MdtqMOw7f78PEOHtqghx1fU4ziadbmjPerfD+jJsV9RE0HUxBE1cURNHFETR9TEETVxRE0cURNH1MQRNXFETRxRE0fUxBE1cURNHFETR9TEOY26aR9mPe5oj7qUUud5rtM0XXrtxnYr/LNH3WJZlqWu63rptRvbrXCu1heCbPhV6xKAogAAAABJRU5ErkJggg==" InformativeScreenshot="61a3f5bfa4f93669a46e5492fc049e1e.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='StealMyLogin.com Demo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="16, 88, 40, 17" ElementType="Text" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' aaname='Login' check:innerText='Login' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAVCAYAAAA98QxkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVEhL7ZVNDoQgDIU5I4kXMlyF2c8l9CAuPEaHnxZrHRljaKIZX9IFtMDHs6qBm+kB1tYDrK0CPL8sGGNEOBgw31pDH/e34CecOCjh8ACOYHst1KzmwPY149y19E/ArH1iiBb6/k7kutwOOdwYikfH8h58R/lty5wExrrOQ6qaPNh0GEITAOYJftlzOScBx5lyiQxJY8lxCri4V1yldevDKF/q6YI1YFwjx6RTwNvNBMCOw7v1cUYFOIDEA345nMT7crOfArAszH1KQFi318MpX/vpNAAurlWDQRAkBd9YuLtEXl9gUgQT3ut614sxXipKONxKM/s0raP2bhyRCnB6WrKlgqKzlwTmPcqDP9qzUgLW082AAT5GSIh/BHYBiAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'login'" sap:VirtualizedContainerService.HintSize="358,166" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f2e98eff-91e3-4d58-a8a0-980fe8668874" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.stealmylogin.com/demo.html" DesignTimeRectangle="16, 184, 44, 21" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'login'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='' aaname='login' check:text='login' /&gt;" Guid="7e7fa99c-ef32-4945-a378-5368609cf506" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAZCAYAAAB3oa15AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEgSURBVFhH7ZddCoUgEIXdoNBqegi30ZOtxGgZPbiCHlvC3EbzpzKorJtCAweEMT2f4wQSmKMsy3mUV1gADITITRZgGAao6zo4KSWhR/RqwgJgous6GMcxaaFH9Gpi0QOhD1IUejXxAbyhawA9B0oo8D6QO6OWASEMRCh3UB9AMP9H3QQggBEynaYWa725owRemBwFVlEgBQeJOb8C85hVbh3aSG+dsG4A0AbtZsqIg5ONZ9iA7gLsr7OneIBNNXygFdykBdAGwOuHg9c0HmC98cK0PnH/SqUHkH0F1iaVEbfxuR54BQB19C/EgCdRgQipilQimLuixwHE9F93PaAr5fdErJ6vgLoK7nrdefqo5wEeVhAg+xdZ9m/iXCNzAIAfvnYiAhScvFUAAAAASUVORK5CYII=" InformativeScreenshot="611e1b2209855b30d077034848654417.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='StealMyLogin.com Demo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="16, 88, 40, 17" ElementType="Text" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' aaname='Login' check:innerText='Login' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAVCAYAAAA98QxkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVEhL7ZVNDoQgDIU5I4kXMlyF2c8l9CAuPEaHnxZrHRljaKIZX9IFtMDHs6qBm+kB1tYDrK0CPL8sGGNEOBgw31pDH/e34CecOCjh8ACOYHst1KzmwPY149y19E/ArH1iiBb6/k7kutwOOdwYikfH8h58R/lty5wExrrOQ6qaPNh0GEITAOYJftlzOScBx5lyiQxJY8lxCri4V1yldevDKF/q6YI1YFwjx6RTwNvNBMCOw7v1cUYFOIDEA345nMT7crOfArAszH1KQFi318MpX/vpNAAurlWDQRAkBd9YuLtEXl9gUgQT3ut614sxXipKONxKM/s0raP2bhyRCnB6WrKlgqKzlwTmPcqDP9qzUgLW082AAT5GSIh/BHYBiAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="358,97" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="358,94" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Login Complete.&quot;]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFASURBVDhPjZNBSwJRFIUHAkFw1WpWgRD0D4IgcBv0GwIhEFwpQQuX7V0LgQu30irchW1bCUm7wSBKCAqjKBgIhNc51/vkKvOcDnzou/eeM8/3xihLtdqoDBrgUjkDe9oOC0M74Bq4ADcgOwiNffChg5v4ARW1LYRCDN51QGg27127nQj8bnvgC5TVLgFd03TD4ZuzStO563QebQC58uYSSH2j1XpYmvr9F5ck37JmqJ9R5iBmwLEpLuETB4NXN52mEsCgjLkTBpzaIn+vN3EXOQHnDKjaIrdN0ch1r/ck60BAgwEHtshTp/j08fhTPqlAwBEDCmDlCnlgs9mvwHOgOSOA70PJ3wRf1fWBPC7ETGHBXdyaZh4jUFT7Qihsg/+E3IFYbatCYwvwWidg3fgM6qCg45uFwV1wCCog8FeOoj+yKyRuyMWN1AAAAABJRU5ErkJggg==" InformativeScreenshot="da92be3cf4562478c16a3481f2aae5ad.jpg" Selector="&lt;html app='msedge.exe' title='StealMyLogin.com Demo' /&gt;" Url="https://www.stealmylogin.com/demo.html" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
