@@ -1,0 +1,363 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="528,1029" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:uascw="clr-namespace:UiPath.Activities.System.Compression.Workflow;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="47">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Web</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Activities.System.Encode</x:String>
+      <x:String>UiPath.Activities.System.Compression.Workflow</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="64">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Web</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="538,964" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Active Loans" sap:VirtualizedContainerService.HintSize="572,2418" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="strFilePath" />
+        <Variable x:TypeArguments="x:String" Name="strZipFilePath" />
+        <Variable x:TypeArguments="x:String" Name="strCurrentZipFilePath" />
+        <Variable x:TypeArguments="sd:DataTable" Name="dtLoans" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Assign sap:VirtualizedContainerService.HintSize="510,70" sap2010:WorkflowViewState.IdRef="Assign_5">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:String">[strFilePath]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:String">result\input.xlsx</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="510,61" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="400,151" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:HttpClient ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" BodyFormat="application/xml" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="https://botsdna.com/ActiveLoans/input.xlsx" sap:VirtualizedContainerService.HintSize="358,61" sap2010:WorkflowViewState.IdRef="HttpClient_2" Method="GET" ResourcePath="[strFilePath]" TimeoutMS="6000">
+              <ui:HttpClient.Attachments>
+                <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+              </ui:HttpClient.Attachments>
+              <ui:HttpClient.Body>
+                <InArgument x:TypeArguments="x:String" />
+              </ui:HttpClient.Body>
+              <ui:HttpClient.ClientCertificate>
+                <InArgument x:TypeArguments="x:String" />
+              </ui:HttpClient.ClientCertificate>
+              <ui:HttpClient.ClientCertificatePassword>
+                <InArgument x:TypeArguments="x:String" />
+              </ui:HttpClient.ClientCertificatePassword>
+              <ui:HttpClient.ContinueOnError>
+                <InArgument x:TypeArguments="x:Boolean" />
+              </ui:HttpClient.ContinueOnError>
+              <ui:HttpClient.Cookies>
+                <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+              </ui:HttpClient.Cookies>
+              <ui:HttpClient.Headers>
+                <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+              </ui:HttpClient.Headers>
+              <ui:HttpClient.Parameters>
+                <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+              </ui:HttpClient.Parameters>
+              <ui:HttpClient.ResponseHeaders>
+                <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" />
+              </ui:HttpClient.ResponseHeaders>
+              <ui:HttpClient.Result>
+                <OutArgument x:TypeArguments="x:String" />
+              </ui:HttpClient.Result>
+              <ui:HttpClient.StatusCode>
+                <OutArgument x:TypeArguments="x:Int32" />
+              </ui:HttpClient.StatusCode>
+              <ui:HttpClient.UrlSegments>
+                <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+              </ui:HttpClient.UrlSegments>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:HttpClient>
+          </Sequence>
+        </ui:CommentOut.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CommentOut>
+      <ui:ReadRange AddHeaders="True" DataTable="[dtLoans]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="510,97" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="Loans" WorkbookPath="[strFilePath]">
+        <ui:ReadRange.Range>
+          <InArgument x:TypeArguments="x:String">
+            <Literal x:TypeArguments="x:String" Value="" />
+          </InArgument>
+        </ui:ReadRange.Range>
+      </ui:ReadRange>
+      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtLoans]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="510,1948" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+        <ui:ForEachRow.Body>
+          <ActivityAction x:TypeArguments="sd:DataRow">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,1823" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="strAccountNum" />
+                <Variable x:TypeArguments="si:DirectoryInfo" Name="strExtractedFiles" />
+                <Variable x:TypeArguments="x:String" Name="strAccountInfoTextData" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Assign sap:VirtualizedContainerService.HintSize="434,70" sap2010:WorkflowViewState.IdRef="Assign_8">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[strAccountNum]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">[CurrentRow("AccountNumber").ToString]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <Assign sap:VirtualizedContainerService.HintSize="434,70" sap2010:WorkflowViewState.IdRef="Assign_6">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[strZipFilePath]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">["https://botsdna.com/ActiveLoans/" + strAccountNum + ".zip"]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <Assign sap:VirtualizedContainerService.HintSize="434,70" sap2010:WorkflowViewState.IdRef="Assign_7">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[strCurrentZipFilePath]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">["result\" + strAccountNum + ".zip"]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:HttpClient ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" BodyFormat="application/xml" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="[strZipFilePath]" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="HttpClient_3" Method="GET" ResourcePath="[strCurrentZipFilePath]" TimeoutMS="6000">
+                <ui:HttpClient.Attachments>
+                  <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                </ui:HttpClient.Attachments>
+                <ui:HttpClient.Body>
+                  <InArgument x:TypeArguments="x:String" />
+                </ui:HttpClient.Body>
+                <ui:HttpClient.ClientCertificate>
+                  <InArgument x:TypeArguments="x:String" />
+                </ui:HttpClient.ClientCertificate>
+                <ui:HttpClient.ClientCertificatePassword>
+                  <InArgument x:TypeArguments="x:String" />
+                </ui:HttpClient.ClientCertificatePassword>
+                <ui:HttpClient.ContinueOnError>
+                  <InArgument x:TypeArguments="x:Boolean" />
+                </ui:HttpClient.ContinueOnError>
+                <ui:HttpClient.Cookies>
+                  <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                </ui:HttpClient.Cookies>
+                <ui:HttpClient.Headers>
+                  <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                </ui:HttpClient.Headers>
+                <ui:HttpClient.Parameters>
+                  <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                </ui:HttpClient.Parameters>
+                <ui:HttpClient.ResponseHeaders>
+                  <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" />
+                </ui:HttpClient.ResponseHeaders>
+                <ui:HttpClient.Result>
+                  <OutArgument x:TypeArguments="x:String" />
+                </ui:HttpClient.Result>
+                <ui:HttpClient.StatusCode>
+                  <OutArgument x:TypeArguments="x:Int32" />
+                </ui:HttpClient.StatusCode>
+                <ui:HttpClient.UrlSegments>
+                  <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                </ui:HttpClient.UrlSegments>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:HttpClient>
+              <uascw:ExtractFiles Content="{x:Null}" File="{x:Null}" Password="{x:Null}" CodePage="Default" DestinationFolder="result" DestinationFolderInfo="[strExtractedFiles]" DisplayName="Extract/Unzip Files" ExtractToADedicatedFolder="True" FileToExtract="[strCurrentZipFilePath]" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="ExtractFiles_1" SkipUnsupportedFiles="False">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uascw:ExtractFiles>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[strExtractedFiles.Name.ToString]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,101" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[Directory.GetFiles(strExtractedFiles.FullName)(0)]" />
+              <ui:ReadTextFile File="{x:Null}" Content="[strAccountInfoTextData]" DisplayName="Read Text File" FileName="[Directory.GetFiles(strExtractedFiles.FullName)(0)]" sap:VirtualizedContainerService.HintSize="434,89" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,101" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[strAccountInfoTextData]" />
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: https://botsdna.com/ActiveLoans/" sap:VirtualizedContainerService.HintSize="434,689" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="385bdb8f-d28f-4c2d-8baf-39e214831b52" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,463" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="strStatus" />
+                        <Variable x:TypeArguments="x:String" Name="strPanNumber" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NGetText DisplayName="Get Text 'SAPTHAGIRI GRAMIN'" sap:VirtualizedContainerService.HintSize="358,166" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="385bdb8f-d28f-4c2d-8baf-39e214831b52" TextString="[strStatus]" Version="V3">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="https://botsdna.com/ActiveLoans/" DesignTimeRectangle="614, 354, 80, 22" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'ACTIVE'" FullSelectorArgument="[string.Format(&quot;&lt;html app='msedge.exe' title='https://botsdna.com/ActiveLoans/' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='A' href='{0}.zip' /&gt;&lt;nav up='2' /&gt;&lt;webctrl tag='TD' colName='STATUS' /&gt;&quot;, strAccountNum)]" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' /&gt;" Guid="e8577807-1246-4984-86e1-ec97ebf50c99" ImageBase64="" InformativeScreenshot="55b63518478ed05f00626177ecdbb5a0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='https://botsdna.com/ActiveLoans/' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target DesignTimeRectangle="698, 356, 251, 17" ElementType="Text" FriendlyName="'SAPTHAGIRI GRAMIN'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='SAPTHAGIRI GRAMIN BANK-7325' check:innerText='SAPTHAGIRI GRAMIN BANK-7325' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <uix:NGetText DisplayName="Get Text 'DIWPK9815G'" sap:VirtualizedContainerService.HintSize="358,166" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="385bdb8f-d28f-4c2d-8baf-39e214831b52" TextString="[strPanNumber]" Version="V3">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="https://botsdna.com/ActiveLoans/" DesignTimeRectangle="1059, 354, 107, 22" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'DIWPK9815G'" FullSelectorArgument="[string.Format(&quot;&lt;html app='msedge.exe' title='https://botsdna.com/ActiveLoans/' /&gt;&lt;webctrl tag='A' href='{0}.zip' /&gt;&lt;nav up='2' /&gt;&lt;webctrl isleaf='1' tableCol='3' tag='TD' colName='PAN NUMBER' /&gt;&quot;, strAccountNum)]" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' class='' tag='TD' /&gt;" Guid="45f06d21-55ba-4d6b-be84-4022ff64e187" ImageBase64="" InformativeScreenshot="1fef2c6e8fc7d9f66eaae65acc7d8b28.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='https://botsdna.com/ActiveLoans/' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V1" Visibility="Interactive" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="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" InformativeScreenshot="8fcffe9e20fb881a7e7f12e94f564ce2.jpg" Selector="&lt;html app='msedge.exe' title='https://botsdna.com/ActiveLoans/' /&gt;" Url="https://botsdna.com/ActiveLoans/" />
+                </uix:NApplicationCard.TargetApp>
+              </uix:NApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEachRow.Body>
+      </ui:ForEachRow>
+    </Sequence>
+  </Sequence>
+</Activity>
