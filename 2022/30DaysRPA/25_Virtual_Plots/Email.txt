@@ -1,0 +1,13 @@
+Dear <Seller>&<Buyer>,
+<br><br>
+New Plot (Plot Number: <PlotNo> with No.of.Sqft <Sqft> has been booked successfully on <Date>
+<br><br>
+Here you can find the Booking Details...
+<br><br>
+
+<BookingDetails>
+
+<br><br>
+Thanks
+<br>
+PlotBot
